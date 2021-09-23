@@ -7,6 +7,9 @@ number = 20
 welcome = '환영'  
 base = '{}번 손님{}'  
 
-print(number, '번 손님', welcome)
-print(base.format(number, welcome))
-print('{} 번 손님{}'.format(number, welcome)
+print(number, '번 손님', welcome) # 20번 손님 환영
+print(base.format(number, welcome)) # 20번 손님 환영
+print('{} 번 손님{}'.format(number, welcome) # 20번 손님 환영
+~~~
+
+## 
