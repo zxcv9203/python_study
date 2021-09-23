@@ -39,3 +39,19 @@ a = 5//3 # 계산결과 1
 ~~~python
 a = float(5)
 ~~~
+
+## 사용자 입력 받기
+### input()
+* 사용자의 키보드 입력을 return
+~~~python
+print('가위 바위 보 중 하나를 내주세요> ', end=' ')
+mine = input()
+print('mine:', mine)
+~~~
+* 간단한 print기능을 내장
+~~~python
+mine = input('가위 바위 보 중 하나를 내주세요> ')
+print('mine:', mine)
+~~~
+### ctrl+c 프로그램 즉시 종료
+
