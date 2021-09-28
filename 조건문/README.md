@@ -66,7 +66,7 @@ else:
 ~~~python
 if mine == 'SCISSOR':
     result = '가위'
-elelif mine == 'ROCK':
+elif mine == 'ROCK':
     result = '바위'
 else:
     result = '이기거나 지거나'
