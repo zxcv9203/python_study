@@ -19,6 +19,7 @@ print(wintable['가위'] #  보
  
 ## 딕셔너리 수정하기
 > 추가
+list와 달리 index out of range 에러가 나지  
 ```python
 dict['three'] = 3
 ```
