@@ -20,6 +20,6 @@ print(wintable['가위'] #  보
  
 ## 딕셔너리 수정하기
 > 추가
-'''
+```python
 dict['three'] = 3
-'''
+```
