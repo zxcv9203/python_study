@@ -37,7 +37,7 @@ for a in enumerate(list):
 for a in enumerate(list):
     print('{}번째 값: {}'.format(*a)) # *a = 튜플을 쪼개라 라는 의미, 리스트에서도 가능
 ```
-```
+```python
 ages = {'Tod':35, 'Jane':25,'Paul':14}
 for a in ages.items():
     print('{}의 나이는 {}입니다'.format(*a))
