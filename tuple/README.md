@@ -53,3 +53,12 @@ for a in dict.items():
 for a in dict.items():
     print('{}의 나이는:{}'.format(*a))
 ```
+
+## while 반복문
++ 조건이 참인 경우 계속 실행하는 반복문
+```python
+while selected not in ['가위', '바위', '보']:
+    selected = input('가위, 바위, 보 중에 선택하세요>')
+```
++ for 반복문으로 작성한 코드는 while 반복문으로 작성 할 수 있다.
+
