@@ -33,4 +33,30 @@ del(dict['one'])
 dict.pop('two')
 ```
 
+## 딕셔너리와 반복문
++ 경우에 따라 가져올 값을 정할 수 있다.
+```python
+for key in ages.keys(): # keys() 생략 가능
+  print(key)            #
+```
+```python
+for value in ages.values():
+  print(value)
+```
++ 키와 value 둘다 가져올 수 있다.
+```python
+for key, value in ages.items():
+  print('{}의 나이는 {}입니다'.format(key, value))
+```
++ 딕셔너리는 순서를 지키지 않는다.
+```python
+ages = {'Tod':35, 'Jane': 23, 'Paul':62}
+for key in ages.keys(): # keys() 생략 가능  
+    print(key)          # Tod, Jane, Paul이 출력 됨  
+for value in ages.values():
+    print(value)        # 62, 23, 35가 출력 됨  
+```
+
+ 
+
 
