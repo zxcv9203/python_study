@@ -49,6 +49,7 @@ for key, value in ages.items():
   print('{}의 나이는 {}입니다'.format(key, value))
 ```
 + 딕셔너리는 순서를 지키지 않는다.
+> 실습
 ```python
 ages = {'Tod':35, 'Jane': 23, 'Paul':62}
 for key in ages.keys(): # keys() 생략 가능  
@@ -57,6 +58,10 @@ for value in ages.values():
     print(value)        # 62, 23, 35가 출력 됨  
 ```
 
- 
+ ## 리스트와 비교
+ + 공통점
+|   |list|dictionary|
+|생성|list=[1,2]|dict={'one':1, 'two':2}
+
 
 
