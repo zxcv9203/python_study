@@ -9,6 +9,6 @@ wintable = {
   '바위' : '가위',
   '보' : '바위'
   }
-  print(wintable['가위'] # 
+print(wintable['가위'] #  보   
 ~~~
  
