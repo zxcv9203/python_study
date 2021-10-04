@@ -29,3 +29,27 @@ x,y = y,x # x = 5, y = 10
 ```
 + 함수의 리턴 값으로 여러 값을 전달 할 수 있다.
   
+## 튜플 리스트 활용
+```python
+# enumerate는 인덱스([0])와 값([1])을 동시에 가져오는 함수이다
+for a in enumerate(list):
+    print('{}번째 값: {}'.format(a[0], a[1])
+for a in enumerate(list):
+    print('{}번째 값: {}'.format(*a)) # *a = 튜플을 쪼개라 라는 의미, 리스트에서도 가능
+```
+```
+ages = {'Tod':35, 'Jane':25,'Paul':14}
+for a in ages.items():
+    print('{}의 나이는 {}입니다'.format(*a))
+# Tod의 나이는 35입니다.
+# Jane의 나이는 25입니다.
+# Paul의 나이는 14입니다.
+```
+
+## 튜플 딕셔너리
+```python
+for a in dict.items():
+    print('{}의 나이는:{}'.format(a[0], a[1])
+for a in dict.items():
+    print('{}의 나이는:{}'.format(*a))
+```
