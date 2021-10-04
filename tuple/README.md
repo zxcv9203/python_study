@@ -54,6 +54,8 @@ for a in dict.items():
     print('{}의 나이는:{}'.format(*a))
 ```
 
+# 실수로 만들어버림..
+
 ## while 반복문
 + 조건이 참인 경우 계속 실행하는 반복문
 ```python
