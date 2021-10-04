@@ -60,9 +60,10 @@ for value in ages.values():
 
  ## 리스트와 비교
  + 공통점
+```python
 | 1 | 2 | 3|
 |---|---|---|
 |one|two|three|
-
+```
 
 
