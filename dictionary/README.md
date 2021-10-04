@@ -60,9 +60,9 @@ for value in ages.values():
 
  ## 리스트와 비교
  + 공통점
-|   |list|dictionary|
-|---|---|---|---|
-|생성|list=[1,2]|dict={'one':1, 'two':2}|
+| 1 | 2 | 3|
+|---|---|---|
+|one|two|three|
 
 
 
