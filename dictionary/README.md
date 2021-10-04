@@ -60,6 +60,8 @@ for value in ages.values():
 
  ## 리스트와 비교
  + 공통점
+
+
 | | list | dictionary |
 | :----: | :----: | :----: |
 | 생성 | list=[1,2] | dict={'one':1,'two':2} |
@@ -71,6 +73,8 @@ for value in ages.values():
 
 
  + 차이점
+
+
 |   | list | dictionary |
 |:---:|:---:|:---:|
 | 순서 | 삭제 시 순서가 바뀌기 </br> 때문에 인덱스 값이 바뀐다 | key로 값을 가져오기 때문에 </br> 삭제 여부와 상관 없다 |
