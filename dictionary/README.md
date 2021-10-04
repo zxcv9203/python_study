@@ -60,7 +60,7 @@ for value in ages.values():
 
  ## 리스트와 비교
  + 공통점
-  | List | Dictionary
+| List | Dictionary
 ---|---|---
 생성 | list=[1,2,3] | dict={'one':1,'two':2}
 호출 | list[0] | dict['one']
@@ -68,6 +68,8 @@ for value in ages.values():
 개수 확인 | len(list) | len(dict)
 값 확인 | 2 in list | 'two' in dict.keys()
 전부 삭제 | list.clear() | dict.clear()
+
+
  + 차이점
    | List | Dictionary
 ---|---|---
