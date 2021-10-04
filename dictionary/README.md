@@ -69,6 +69,11 @@ for value in ages.values():
 | 값 확인 | 2 in list | 'two' in dict.keys()|
 | 전부 삭제 | list.clear() | dict.clear()|
 
+머리1 | 머리2 | 머리3 | 뚝배기
+---- | ---- | ---- | ----
+다리 | | | 뚝배기깹니다
+금 | 의 | 환 | 향
+
 
  + 차이점
 |   | List | Dictionary|
