@@ -66,8 +66,8 @@ for value in ages.values():
 | :----: | :----: | :----: |
 | 생성 | list=[1,2] | dict={'one':1,'two':2} |
 | 호출 | list[0] | dict['one'] |
-| 삭제 | del (list[0]) | len(dict) |
-| 개수 확인 | len(list) | del (dict['one'] |
+| 삭제 | del (list[0]) | del (dict['one']) |
+| 개수 확인 | len(list) |  len(dict) |
 | 값 확인 | 2 in list  | 'two' in dict.keys() |
 | 전부 삭제 | list.clear()  | dict.clear |
 
