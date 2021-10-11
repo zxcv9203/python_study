@@ -147,3 +147,72 @@ list.sort()
 ``` python
 list.reverse()
 ```
+
+# List와 문자열
+
+리스트와 문자열은 유사합니다.
+
+먼저, 다음과 같이 리스트와 문자열은 인덱스로 접근이 가능합니다.
+
+```python
+list[0]
+string[0]
+```
+
+또한, in을 이용해서 특정 값이 들어있는지 확인할 수 있습니다.
+
+```python
+3 in list
+"a" in string
+```
+
+또한 index를 사용해서 특정 값이 몇번째 인덱스에 있는지 확인이 가능합니다.
+
+``` python
+list.index(1)
+string.index("e")
+```
+
+그리고 서로 변환이 가능합니다.
+
+- string -> list
+
+split을 이용해서 리스트로 만들 수 있습니다.
+
+다음과 같은 형태로 사용합니다.
+
+```
+string.split()
+```
+
+다음은 사용 예시입니다.
+
+``` python
+string = "hello world"
+list = string.split()
+print(list) # ["hello", "world"]
+```
+
+위와 같이 문자열을 split으로 나누면 공백을 기준으로 리스트로 나눠줍니다.
+
+split 안의 인자에 따라 어떤 것으로 나눌지 정할 수 있습니다. 기본은 공백입니다.
+
+- list -> string
+
+나눠진 리스트를 다시 문자열로 변경하고 싶으면 join을 사용합니다.
+
+다음과 같은 형태로 사용합니다.
+
+``` python
+"나누는 기준".join(list)
+```
+
+다음은 사용 예시입니다.
+
+``` python
+" ".join(list)
+```
+
+위와 같이 사용하면 리스트를 공백단위로 붙입니다.
+
+앞에 문자열 리터럴을 변경하면 원하는 문자로 리스트를 붙일 수 있습니다.
