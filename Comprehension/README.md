@@ -51,3 +51,43 @@ print(areas3)
 위와 같이하면 x와 y의 값을 하나하나 가져와서 담을 수 있습니다.
 
 ## Dict Comprehension
+
+Dictionary도 Comprehension으로 생성할 수 있습니다.
+
+{}안에 식의 부분에 키와 값 2개를 `key : value`와 같이 지정하여 작성하면 됩니다.
+
+다음과 같은 리스트를 만들어봅시다.
+
+```python
+students = ["yongckim", "yongcpark", "yongclee"]
+for number, name in enumerate(students):
+    print("{}번의 이름은 {}입니다.".format(number, name))
+```
+
+위의 파이썬 코드는 0번부터 시작한다는 문제점이 있습니다.
+
+이를 dict Comprehension을 이용해서 해결하면 다음과 같이 작성할 수 있습니다.
+
+```python
+std_dict = {"{}번".format(number+1): name for number, name in enumerate(students)}
+print(std_dict)
+```
+
+### zip
+zip 함수는 여러개의 iterable한 객체를 인자로 받고 각 객체가 담고 있는 원소를 튜플 형태로 받을 수 있습니다.
+
+```python
+students = ["yongckim", "yongcpark", "yongclee"]
+scores = [85,92,78]
+for x, y in zip(students, scores):
+    print(x, y)
+```
+
+다음을 실행하면 students와 scores의 같은 인덱스의 값이 묶여 출력됩니다.
+
+다음과 같이 zip과 dict comprehension을 이용해서 dictionary 형태로 값을 저장할 수 있습니다.
+
+```python
+score_dic = {student : score for student, score in zip(students, scores)}
+print(score_dic)
+```
